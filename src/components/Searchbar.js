@@ -12,7 +12,7 @@ const SearchBar = (props) => {
 
                         <div className="col s6 push-s3">
                             <select color="black" className="browser-default dropdown select-css" defaultValue="Sort" onChange={props.handleSort}>
-                                <option disabled value="Sort">Choose a Sorting Option</option>
+                                <option disabled value="Sort">Sort by: </option>
                                 <option value="Ascending">A-Z</option>
                                 <option value="Descending">Z-A</option>
                                 <option value="Newest">Newest</option>

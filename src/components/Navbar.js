@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <div>
             <nav>
-                <div class="nav-wrapper">
+                <div class="nav-wrapper" style={{ backgroundColor: 'indigo' }}>
                     <Link to="/" class="brand-logo center">The Book Finder</Link>
                     <ul id="nav-mobile" class="left hide-on-med-and-down">
                     </ul>
