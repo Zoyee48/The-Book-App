@@ -2,11 +2,10 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 const BookDetails = (props) => {
-    console.log("Book Details e achi vai "+props);
     return (<div>
         <div className="row">
             <div className="col s12 m7">
-                <div className="card large">
+                <div className="card">
                     <img
                         src={props.location.image}
                         alt=""
